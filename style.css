@@ -168,18 +168,11 @@ header .prst #caroussel img {
     width: 150px;
     height: 150px;
     padding-left: 15px;
-    box-shadow: ;
     animation-name: adiscord;
     animation-iteration-count: infinite;
     animation-duration: 10s;
 }
 
-@keyframes {
-    to,
-    from{
-        box-shadow: black;
-    }
-}
 
 header .ti {
     display: flex;
