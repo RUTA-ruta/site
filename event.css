@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+  background-image: url(chateau.jpg);
+  background-size: cover;
+  margin: 0px;
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+/* Barre de navigation */
+
+nav {
+  display:flex;
+  justify-content: center;
+  position:sticky;
+  top: 0;
+  background-color: #1d1c1c6d;
+  padding: 10px 0px;
+  padding-bottom: 20px;
+}
+
+nav .onglets {
+  display:flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+nav .onglets {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+nav .onglets a {
+  margin-right: 75px;
+  margin-left: 75px;
+  cursor:pointer;
+  font-size: 18px;
+  text-decoration: none;
+  color: #ffffff;
+  flex-wrap: wrap;
+}
+
+/* Fin de la barre de navigation
+
+
+    /* Header */
+
+header{
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-bottom: 500px;
+    color: black;
+}
+
+header h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    margin-top: 100px;
+}
+/*----------------------------------*/
+
+figure{
+  transition: 1s;
+  flex-wrap: wrap;
+}
+
+figure:hover{
+  transform: scale(1.2);
+}
+
+header .phc{
+    margin-left: 250px;
+    margin-right: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 160px;
+    flex-wrap: wrap;
+}
+
+header .phc figcaption{
+  display: flex;
+    font-size: 23px;
+    margin-top: 30px;
+    border-color: #d01818;
+    margin-left: 55px;
+}
+header .phc figcaption a{
+    padding: 5px 20px;
+    border: solid;
+    border-color: #ffffff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+header .phc img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border-color: green;
+
+}
+
+header .phc figure{
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #1a1a1a;
+    border: 1px #f10000;
+    border-radius: 30px;
+}
+
+/*---------------------------------*/
+header .phc-2{
+  margin-left: 250px;
+  margin-right: 250px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 160px;
+  flex-wrap: wrap;
+}
+
+header .phc-2 figcaption{
+display: flex;
+  font-size: 23px;
+  margin-top: 30px;
+  border-color: #d01818;
+  margin-left: 55px;
+}
+header .phc-2 figcaption a{
+  padding: 5px 20px;
+  border: solid;
+  border-color: #ffffff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+header .phc-2 img{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border-color: green;
+
+}
+
+header .phc-2 figure{
+  padding-top: 15px;
+  padding-bottom: 25px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #1a1a1a;
+  border: 1px #f10000;
+  border-radius: 30px;
+}
+
+/* Fin du header */
+
+
+
+/* Pied de page */
+
+footer{
+  background-color: #1a1a1a;
+  padding: 25px 50px;
+  color:#828282;
+}
+
+.collone{
+  padding: 5px 0px;
+}
+
+footer .colonnes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.long{
+  height: 40px;
+  width: 350px;
+}
+
+.siruon{
+  text-align: center;
+}
+
+footer h3{
+  color: #ffffff;
+}
+
+footer a{
+  text-decoration: none;
+  color: #9d9b9b;
+}
+
+footer p > a:hover{
+  cursor: pointer;
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+
+
+/* Fin du pied de page */
+
+
+
+
+@media screen and (max-width: 640px){
+
+  header h1{
+    font-size: 30px;
+    padding: 0px 0px;
+    margin-top: 30px;
+}
+}
+/*FOOTER*/
+@media  screen and (min-width: 615px) {
+  footer{
+   height: 400px;
+  }
+
+  .siruon{
+    margin-top: 130px;
+  }
+
+ }
+
+ @media screen and (min-width: 510px) {
+  footer{
+    height: 400px;
+   }
+ 
+   .siruon{
+     margin-top: 130px;
+   }
+   
+ }
+
+/*FIN FOOTER*/
+
+
+.a-cat .phc{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 700px;
+}
+
+.a-cat .phc-2{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 0px;
+}
+}
+@media screen and (min-width: 580px) {
+  .a-cat .phc{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+  }
+  
+  .a-cat .phc-2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 0px;
+  }
+
+
+}
+
