@@ -248,7 +248,7 @@ footer{
   
    }
   
-   @media screen and (min-width: 310px) {
+   @media screen and (min-width: 200px) {
     footer{
       height: 500px;
      }
