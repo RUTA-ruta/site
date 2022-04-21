@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+    background-color: #141414;
+    padding: 0px;
+    margin: 0px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.page {
+    margin-top: 0px;
+    background-image: url(chateau.jpg);
+    background-size: cover;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Barre de navigation */
+
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    position:sticky;
+    top: 0;
+    background-color: #1d1c1c6d;
+    padding: 10px 0px;
+    padding-bottom: 20px;
+}
+nav .onglets {
+  display:flex;
+  flex-wrap:wrap;
+  margin-top: 5px;
+}
+
+nav .onglets {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+nav .onglets a {
+    margin-right: 75px;
+    margin-left: 75px;
+    cursor:pointer;
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Fin de la barre de navigation
+
+/* Header */
+
+header .ti h1 {
+    text-align:center;
+    font-size: 60px;
+    padding-top: 220px;
+    padding-bottom: 200px;
+    animation-duration: 5s;
+    animation-name: titre;
+    display: flex;
+    justify-content: center;
+    margin-left: 450px;
+}
+
+@keyframes titre {
+    0%{
+        transform: translateX(-300px);
+
+    }
+}
+
+.prst {
+    background-color: inherit;
+    padding-bottom: 200px;
+    animation-duration: 5sec;
+    animation-name: amdj;
+}
+
+.images {
+    display: flex;
+    animation-duration: 30s;
+    animation-name: image;
+    animation-iteration-count: infinite;
+    border-radius: 25px;
+    padding-left: 0px;  
+
+}
+
+#caroussel {
+ 
+    overflow: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+
+}
+@keyframes image {
+    0%{
+       transform: transleteX(-150px) 
+    }
+    25%{
+        transform: translateX(-150px);
+    }
+    50%{
+        transform: translateX(-300px);
+    }
+    75%{
+        transform: translateX(-450px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+header .prst #caroussel img {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border-radius: 100px;
+}
+
+.mdj {
+    display: flex;
+    background-color: rgb(36, 90, 106);
+    margin-left: 140px;
+    padding: 3px 3px;
+    margin-left: 10px;
+    padding-left: 0px;
+    margin-right: 800px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.mdj p {
+    font-size: 30px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    color: black;
+}
+
+.disc {
+    display: flex;
+    background-color: rgb(36, 90, 106);
+    margin-right: 140px;
+    padding: 3px 3px;
+    margin-right: 10px;
+    padding-right: 10px;
+    margin-left: 800px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.disc p {
+    font-size: 31px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    color: black;
+}
+#logo img {
+    width: 150px;
+    height: 150px;
+    padding-left: 15px;
+    box-shadow: ;
+    animation-name: adiscord;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+@keyframes {
+    to,
+    from{
+        box-shadow: black;
+    }
+}
+
+header .ti {
+    display: flex;
+}
+
+header .ti img {
+    position: sticky;
+    display: flex;
+    margin-left: 350px;
+    margin-top: 300px;
+    width: 75px;
+    height: 75px;
+    background-color: #141414c2;
+    padding: 0.1px 0.1px;
+    border-radius: 100px;
+}
+
+/* Fin du header */
+
+
+
+/* Pied de page */
+footer{
+    background-color: #1a1a1a;
+    padding: 25px 50px;
+    color:#828282;
+  }
+  
+  .collone{
+    padding: 5px 0px;
+  }
+  
+  footer .colonnes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .long{
+    height: 40px;
+    width: 350px;
+  }
+  
+  .siruon{
+    text-align: center;
+  }
+  
+  footer h3{
+    color: #ffffff;
+  }
+  
+  footer a{
+    text-decoration: none;
+    color: #9d9b9b;
+  }
+  
+  footer p > a:hover{
+    cursor: pointer;
+    color: #ffffff;
+    opacity: 0.9;
+  }
+/* Fin du pied de page */
+
+
+/*FOOTER*/
+@media  screen and (min-width: 615px) {
+    footer{
+     height: 400px;
+    }
+  
+    .siruon{
+      margin-top: 130px;
+    }
+  
+   }
+  
+   @media screen and (min-width: 510px) {
+    footer{
+      height: 400px;
+     }
+   
+     .siruon{
+       margin-top: 130px;
+     }
+     
+   }
+  
+  /*FIN FOOTER*/
+
+
+@media screen and (max-width: 640px){
+  body .page{
+    margin: 10px;
+  }
+  nav .onglets{
+    display:none;
+  }
+  header{
+    margin-top: 20px;
+    background-size: 250px 250px;
+  }
+  header h1{
+    font-size: 30px;
+    padding: 100px;
+  }
+}
