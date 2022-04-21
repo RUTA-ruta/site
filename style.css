@@ -266,9 +266,7 @@ footer{
   body .page{
     margin: 10px;
   }
-  nav .onglets{
-    display:none;
-  }
+
   header{
     margin-top: 20px;
     background-size: 250px 250px;
