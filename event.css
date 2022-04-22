@@ -246,19 +246,6 @@ footer{
 /*FIN FOOTER*/
 
 
-.a-cat .phc{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.a-cat .phc-2{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 0px;
-}
-
 @media screen and (min-width: 300px) {
 
   .page{
