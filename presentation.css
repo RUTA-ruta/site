@@ -191,8 +191,9 @@ footer p > a:hover{
     @media  screen and (min-width: 300px) {
 
         .b-cat{
-            margin-left: 0%;
-            margin-right: 0%;
+            margin-left: 0px;
+            margin-right: 0px;
+            width: 277px;
         }
 
      footer{
