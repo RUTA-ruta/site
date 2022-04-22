@@ -228,17 +228,26 @@ footer p > a:hover{
 
  }
 
- @media screen and (min-width: 510px) {
+ @media screen and (max-width: 510px) {
   footer{
-    height: 400px;
+    height: 500px;
    }
  
    .siruon{
      margin-top: 130px;
    }
-   
- }
 
+ }
+ @media  screen and (min-width: 300px) {
+  footer{
+    height: 500px;
+
+  }
+  nav .onglets a{
+    justify-content: center;
+    text-align: center;
+  }
+ }
 /*FIN FOOTER*/
 
 
@@ -255,7 +264,7 @@ footer p > a:hover{
   flex-wrap: wrap;
   margin-top: 0px;
 }
-}
+
 @media screen and (min-width: 580px) {
   .a-cat .phc{
     display: flex;
@@ -273,4 +282,23 @@ footer p > a:hover{
 
 
 }
+
+@media screen and (min-width: 280px) {
+  .a-cat .phc{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+  }
+  
+  .a-cat .phc-2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 0px;
+  }
+
+
+}
+
 
