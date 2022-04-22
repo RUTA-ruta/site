@@ -250,7 +250,6 @@ footer{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  height: 700px;
 }
 
 .a-cat .phc-2{
@@ -261,6 +260,11 @@ footer{
 }
 
 @media screen and (min-width: 300px) {
+
+  .page{
+    margin: 0%;
+  }
+
   .a-cat .phc{
     display: flex;
     justify-content: center;
