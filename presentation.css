@@ -200,7 +200,7 @@ footer p > a:hover{
      nav .onglets a{
       margin-right: 0%;
       margin-left: 160px;
-      padding-bottom: 10px;
+      padding-bottom: 5px;
      }
     }
 
@@ -210,7 +210,7 @@ footer p > a:hover{
   .a-cat{
     display: flex;
     flex-direction: column;
-    margin-left: -275px;
+    margin-left: -115px;
     width: 220px;
   }
 
