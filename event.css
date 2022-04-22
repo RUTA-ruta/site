@@ -114,8 +114,7 @@ header .phc figure{
 
 /*---------------------------------*/
 header .phc-2{
-  margin-left: 250px;
-  margin-right: 250px;
+
   display: flex;
   justify-content: space-between;
   margin-top: 160px;
