@@ -136,7 +136,7 @@ footer{
   footer .long p{
     display: flex;
     flex-wrap: wrap;
-    width: 300px;
+    width: 250px;
   }
   .siruon{
     margin-top: 140px;
