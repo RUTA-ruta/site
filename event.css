@@ -247,6 +247,10 @@ footer{
 
 @media screen and (min-width: 100px) {
 
+  header{
+    margin-left: 0%;
+  }
+
   .page{
     margin: 0%;
   }
