@@ -206,13 +206,13 @@ footer p > a:hover{
 
 /*FIN FOOTER*/
 
-@media screen and (max-width: 1155px){
+/*@media screen and (max-width: 1155px){
   .a-cat{
     display: flex;
     flex-direction: column;
     margin-left: -115px;
     width: 220px;
-  }
+  }*/
 
 .phc{
   display: flex;
