@@ -127,9 +127,9 @@ footer{
   
    }
   
-   @media screen and (min-width: 510px) {
+   @media screen and (max-width: 510px) {
     footer{
-      height: 400px;
+      height: 500px;
      }
    
      .siruon{
