@@ -65,11 +65,9 @@ header h3{
 
 header .a-cat{
     font-size: 20px;
-  display: flex;
-  position: relative;
-  flex-direction: column;
-    margin-left: 205px;
-    margin-right: 275px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
     border-radius: 20px;
     margin-top: 65px;
     padding-bottom: 30px;
