@@ -140,8 +140,12 @@ footer{
    @media  screen and (min-width: 300px) {
     footer{
       height: 500px;
+
     }
-  }
+    nav .onglets a{
+      justify-content: center;
+    }
+   }
  
   /*FIN FOOTER*/
 
