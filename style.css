@@ -133,7 +133,11 @@ footer{
     height: 500px;
   
   }
-
+  footer .long p{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+  }
   .siruon{
     margin-top: 140px;
   }
