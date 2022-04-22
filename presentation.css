@@ -199,7 +199,11 @@ footer p > a:hover{
        height: 500px;
      
      }
-    
+     footer .long p{
+        display: flex;
+        flex-wrap: wrap;
+        width: 265px;
+      }
      .siruon{
        margin-top: 140px;
      }
