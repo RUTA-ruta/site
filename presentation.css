@@ -67,6 +67,7 @@ header .a-cat{
     font-size: 20px;
     display: flex;
     text-align: center;
+    flex-direction: column;
     justify-content: center;
     border-radius: 20px;
     margin-top: 65px;
