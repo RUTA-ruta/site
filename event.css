@@ -246,7 +246,7 @@ footer{
 /*FIN FOOTER*/
 
 
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 100px) {
 
   .page{
     margin: 0%;
