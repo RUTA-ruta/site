@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+  background-image: url(chateau.jpg);
+  background-size: cover;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  
+}
+
+/* Barre de navigation */
+
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    position:sticky;
+    top: 0;
+    background-color: #1d1c1c6d;
+    padding: 10px 0px;
+    padding-bottom: 20px;
+}
+nav .onglets {
+  display:flex;
+  flex-wrap:wrap;
+  margin-top: 5px;
+}
+
+nav .onglets {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+nav .onglets a {
+    margin-right: 75px;
+    margin-left: 75px;
+    cursor:pointer;
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Fin de la barre de navigation
+
+    /* Header */
+header{
+    padding-bottom: 700px;
+    padding-top: 30px;  
+    margin-left: 50px;
+    margin-right: 50px;
+
+    border-radius: 30px;
+}
+header h1{
+    text-align: center;
+    transition: transform 2.5s;
+    font-size: 50px;
+}
+header h3{
+    text-align: center;
+    padding-top:20px;
+}
+
+
+header .a-cat{
+    font-size: 20px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+    margin-left: 205px;
+    margin-right: 275px;
+    border-radius: 20px;
+    margin-top: 65px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(38, 38, 38);
+    color: #ffffff;
+ 
+
+
+}
+
+header .phc img{
+  position: relative;
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 100px;
+
+}
+header .phc {
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+}
+
+header .a-cat .phc figcaption{
+  position: relative;
+  margin-top: 15px;
+  margin-left: 70px;
+  display: flex;
+flex-wrap: wrap;
+}
+
+header .b-cat{
+    color: #ffffff;
+    background-color: rgb(38, 38, 38);
+    margin-top: 50px;
+    margin-left: 110px;
+    margin-right: 110px;
+    border-radius: 20px;
+    padding-bottom: 150px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+
+}
+
+
+/* Fin du header */
+
+
+
+/* Pied de page */
+footer{
+  background-color: #1a1a1a;
+  padding: 25px 100px;
+  color:#828282;
+}
+footer .colonnes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.long{
+  height: 40px;
+  width: 350px;
+}
+
+.siruon{
+  text-align: center;
+}
+
+footer h3{
+  color: #ffffff;
+}
+
+footer a{
+  text-decoration: none;
+  color: #9d9b9b;
+}
+
+footer p > a:hover{
+  cursor: pointer;
+  color: #ffffff;
+  opacity: 0.9;
+}
+/* Fin du pied de page */
+
+
+
+
+
+
+@media screen and (max-width: 640px){
+  @media screen and (max-width: 640px){
+
+    header h1{
+      font-size: 30px;
+      padding: 0px 0px;
+      margin-top: 30px;
+  }
+  }
+
+/*FOOTER*/
+
+@media  screen and (min-width: 615px) {
+    footer{
+      height: 400px;
+     }
+    
+     .siruon{
+       margin-top: 130px;
+     }
+    
+    }
+    
+    @media  screen and (min-width: 300px) {
+     footer{
+       height: 500px;
+     
+     }
+    
+     .siruon{
+       margin-top: 140px;
+     }
+    
+     nav .onglets a{
+      margin-right: 0%;
+      margin-left: 160px;
+      padding-bottom: 10px;
+     }
+    }
+
+/*FIN FOOTER*/
+
+@media screen and (max-width: 1155px){
+  .a-cat{
+    display: flex;
+    flex-direction: column;
+    margin-left: -275px;
+    width: 220px;
+  }
+
+.phc{
+  display: flex;
+  flex-direction: column;
+  float: left;
+
+
+
+  }
+}
